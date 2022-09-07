@@ -14,19 +14,19 @@ itertools = "0.10.1"
 bincode = "1.3.3"
 rand = "0.7.3"
 borsh = "0.9.1"
-solana-sdk = { git = "https://github.com/solana-labs/solana" , branch = "master"}
-solana-program = { git = "https://github.com/solana-labs/solana" , branch = "master"}
-solana-logger = { git = "https://github.com/solana-labs/solana" , branch = "master"}
-solana-runtime = { git = "https://github.com/solana-labs/solana" , branch = "master"}
-solana-transaction-status = { git = "https://github.com/solana-labs/solana" , branch = "master"}
-solana-cli-output = { git = "https://github.com/solana-labs/solana" , branch = "master"}
-solana-bpf-loader-program = { git = "https://github.com/solana-labs/solana" , branch = "master"}
-solana-compute-budget-program = { git = "https://github.com/solana-labs/solana" , branch = "master"}
-solana-vote-program = { git = "https://github.com/solana-labs/solana" , branch = "master"}
-solana-stake-program = { git = "https://github.com/solana-labs/solana" , branch = "master"}
-solana-config-program = { git = "https://github.com/solana-labs/solana" , branch = "master"}
-solana-client = { git = "https://github.com/solana-labs/solana" , branch = "master"}
-solana-faucet = { git = "https://github.com/solana-labs/solana" , branch = "master"}
+solana-sdk = { path = "../sdk/" }
+solana-program = { path = "../sdk/program/" }
+solana-logger = { path = "../logger/" }
+solana-runtime = { path = "../runtime/" }
+solana-transaction-status = { path = "../transaction-status/" }
+solana-cli-output = { path = "../cli-output/" }
+solana-bpf-loader-program = { path = "../programs/bpf_loader/" }
+solana-compute-budget-program = { path = "../programs/compute-budget/" }
+solana-vote-program = { path = "../programs/vote/" }
+solana-stake-program = { path = "../programs/stake/" }
+solana-config-program = { path = "../programs/config/" }
+solana-client = { path = "../client/" }
+solana-faucet = { path = "../faucet/" }
 spl-token = "3.3.0"
 spl-memo = "3.0.1"
 spl-associated-token-account = "1.0.5"
@@ -36,7 +36,7 @@ libsecp256k1 = "0.7.1"
 sha3 = "0.10.0"
 hex = "0.4.3"
 once_cell = "1.9.0"
-solana-ledger = { git = "https://github.com/solana-labs/solana" , branch = "master"}
+solana-ledger = { path = "../ledger/" }
 
 [dev-dependencies]
-solana-program-runtime = { git = "https://github.com/solana-labs/solana" , branch = "master"}
+solana-program-runtime = { path = "../program-runtime/" }
