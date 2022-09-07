@@ -14,19 +14,19 @@ itertools = "0.10.1"
 bincode = "1.3.3"
 rand = "0.7.3"
 borsh = "0.9.1"
-solana-sdk = "=1.11.10"
-solana-program = "=1.11.10"
-solana-logger = "=1.11.10"
-solana-runtime = "=1.11.10"
-solana-transaction-status = "=1.11.10"
-solana-cli-output = "=1.11.10"
-solana-bpf-loader-program = "=1.11.10"
-solana-compute-budget-program = "=1.11.10"
-solana-vote-program = "=1.11.10"
-solana-stake-program = "=1.11.10"
-solana-config-program = "=1.11.10"
-solana-client = "=1.11.10"
-solana-faucet = "=1.11.10"
+solana-sdk = { git = "https://github.com/solana-labs/solana.git" , branch = "main"}
+solana-program = { git = "https://github.com/solana-labs/solana.git" , branch = "main"}
+solana-logger = { git = "https://github.com/solana-labs/solana.git" , branch = "main"}
+solana-runtime = { git = "https://github.com/solana-labs/solana.git" , branch = "main"}
+solana-transaction-status = { git = "https://github.com/solana-labs/solana.git" , branch = "main"}
+solana-cli-output = { git = "https://github.com/solana-labs/solana.git" , branch = "main"}
+solana-bpf-loader-program = { git = "https://github.com/solana-labs/solana.git" , branch = "main"}
+solana-compute-budget-program = { git = "https://github.com/solana-labs/solana.git" , branch = "main"}
+solana-vote-program = { git = "https://github.com/solana-labs/solana.git" , branch = "main"}
+solana-stake-program = { git = "https://github.com/solana-labs/solana.git" , branch = "main"}
+solana-config-program = { git = "https://github.com/solana-labs/solana.git" , branch = "main"}
+solana-client = { git = "https://github.com/solana-labs/solana.git" , branch = "main"}
+solana-faucet = { git = "https://github.com/solana-labs/solana.git" , branch = "main"}
 spl-token = "3.3.0"
 spl-memo = "3.0.1"
 spl-associated-token-account = "1.0.5"
@@ -36,7 +36,7 @@ libsecp256k1 = "0.7.1"
 sha3 = "0.10.0"
 hex = "0.4.3"
 once_cell = "1.9.0"
-solana-ledger = "1.11.10"
+solana-ledger = { git = "https://github.com/solana-labs/solana.git" , branch = "main"}
 
 [dev-dependencies]
-solana-program-runtime = "=1.11.10"
+solana-program-runtime = { git = "https://github.com/solana-labs/solana.git" , branch = "main"}
